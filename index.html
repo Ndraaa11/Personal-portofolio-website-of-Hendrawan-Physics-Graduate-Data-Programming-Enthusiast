@@ -3,15 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hendrawan | Portfolio</title>
+
+    <title>Hendrawan | Data Analyst Portfolio</title>
+
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+    <!-- =========================================================
+         NAVBAR
+         ========================================================= -->
     <nav class="navbar">
       <div class="logo">H.</div>
 
-      <button class="menu-toggle" aria-label="Toggle Navigation">☰</button>
+      <button class="menu-toggle" aria-label="Toggle Navigation">
+        <svg
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+        >
+          <path d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
 
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
@@ -27,6 +44,9 @@
       </ul>
     </nav>
 
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
     <section id="home" class="hero">
       <div class="hero-content">
         <p class="intro">HELLO, I'M</p>
@@ -35,7 +55,7 @@
 
         <h2>
           Physics Graduate <span class="highlight">|</span>
-          Data & Programming Enthusiast
+          Aspiring Data Analyst
         </h2>
 
         <p class="hero-description">
@@ -47,14 +67,13 @@
 
         <div class="hero-buttons">
           <a href="#projects" class="btn primary">View My Projects</a>
-
           <a href="#contact" class="btn secondary">Contact Me</a>
         </div>
 
         <div class="hero-stats">
           <div class="hero-stat">
-            <strong>1+</strong>
-            <span>Project</span>
+            <strong>01</strong>
+            <span>Featured Project</span>
           </div>
 
           <div class="hero-stat">
@@ -76,21 +95,21 @@
 
         <div class="profile-image-container">
           <img
-            src="Sertifikat\fotoHendrawan.jpeg"
-            alt="Hendrawan - Physics Graduate"
+            src="Sertifikat/FotoHendrawan.jpg"
+            alt="Hendrawan - Physics Graduate and Aspiring Data Analyst"
             class="profile-image"
           />
         </div>
 
         <div class="floating-tag tag-python">Python</div>
-
         <div class="floating-tag tag-data">Data Analysis</div>
-
         <div class="floating-tag tag-ai">Machine Learning</div>
       </div>
     </section>
 
-    <!-- ABOUT -->
+    <!-- =========================================================
+         ABOUT
+         ========================================================= -->
     <section id="about" class="about section">
       <div class="section-container">
         <div class="section-header">
@@ -99,40 +118,53 @@
         </div>
 
         <div class="about-content">
-          <!-- ABOUT TEXT -->
           <div class="about-text">
             <h3>
-              Physics Graduate with an Interest in
-              <span>Technology & Data</span>
+              Physics Graduate with a Focus on
+              <span>Data & Technology</span>
             </h3>
 
             <p>
               Saya adalah lulusan S1 Fisika dari Universitas Mataram dengan
-              ketertarikan pada pemrograman, pengolahan data, analisis data, dan
-              penerapan machine learning.
+              ketertarikan pada pengolahan data, analisis data, dan pemrograman.
             </p>
 
             <p>
               Latar belakang pendidikan Fisika membentuk saya untuk berpikir
-              sistematis, analitis, dan terbiasa memecahkan permasalahan
-              berdasarkan data. Saat ini saya terus mengembangkan kemampuan di
-              bidang teknologi dan data melalui pembelajaran mandiri serta
-              pengembangan project.
+              sistematis dan analitis dalam memahami permasalahan serta mengolah
+              data. Saya juga memiliki pengalaman menggunakan Python dalam
+              proyek akademik yang melibatkan pengolahan data dan penerapan
+              machine learning.
             </p>
 
             <p>
-              Saya memiliki minat untuk terus belajar, beradaptasi dengan
-              teknologi baru, serta mengembangkan kemampuan yang dapat
-              diterapkan dalam dunia kerja dan berbagai permasalahan nyata.
+              Saat ini saya terus mengembangkan kemampuan di bidang data dan
+              teknologi melalui pembelajaran mandiri serta pengembangan project,
+              dengan tujuan menerapkan kemampuan tersebut dalam lingkungan kerja
+              secara profesional.
             </p>
 
             <a href="#contact" class="btn primary">Let's Connect</a>
           </div>
 
-          <!-- ABOUT INFORMATION -->
           <div class="about-info">
             <div class="info-card">
-              <span>🎓</span>
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m2 10 10-5 10 5-10 5-10-5Z" />
+                  <path d="M6 12v5c3.5 3 8.5 3 12 0v-5" />
+                  <path d="M22 10v6" />
+                </svg>
+              </span>
 
               <div>
                 <h4>Education</h4>
@@ -141,25 +173,67 @@
             </div>
 
             <div class="info-card">
-              <span>💻</span>
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M3 3v18h18" />
+                  <path d="m7 14 4-4 4 3 6-7" />
+                </svg>
+              </span>
 
               <div>
                 <h4>Current Focus</h4>
-                <p>Programming, Data Analysis & Machine Learning</p>
+                <p>Data Analysis, Data Processing & Python</p>
               </div>
             </div>
 
             <div class="info-card">
-              <span>📊</span>
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="3" y="4" width="18" height="16" rx="2" />
+                  <path d="M8 4V2h8v2M3 9h18M9 13l-2 2 2 2M15 13l2 2-2 2" />
+                </svg>
+              </span>
 
               <div>
-                <h4>Project Interest</h4>
-                <p>Data Processing & Artificial Intelligence</p>
+                <h4>Project Experience</h4>
+                <p>Data Processing & Machine Learning</p>
               </div>
             </div>
 
             <div class="info-card">
-              <span>🌱</span>
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+              </span>
 
               <div>
                 <h4>Personal Approach</h4>
@@ -171,7 +245,9 @@
       </div>
     </section>
 
-    <!-- SKILLS -->
+    <!-- =========================================================
+         SKILLS
+         ========================================================= -->
     <section id="skills" class="skills section">
       <div class="section-container">
         <div class="section-header">
@@ -180,17 +256,14 @@
         </div>
 
         <div class="skills-grid">
-          <!-- SKILL 01 -->
           <div class="skill-card">
             <div class="skill-number">01</div>
-
-            <div class="skill-icon">💻</div>
 
             <h3>Programming & Data Processing</h3>
 
             <p>
-              Menggunakan Python untuk pengolahan, analisis, dan visualisasi
-              data sebagai bagian dari pengembangan project berbasis data.
+              Menggunakan Python untuk pengolahan dan analisis data serta
+              membuat visualisasi dalam project akademik berbasis data.
             </p>
 
             <div class="skill-tags">
@@ -200,57 +273,51 @@
             </div>
           </div>
 
-          <!-- SKILL 02 -->
           <div class="skill-card">
             <div class="skill-number">02</div>
 
-            <div class="skill-icon">🤖</div>
-
-            <h3>Machine Learning</h3>
+            <h3>Machine Learning - ANN</h3>
 
             <p>
-              Memiliki pengalaman mengembangkan model Artificial Neural Network
-              untuk melakukan prediksi berdasarkan dataset penelitian.
+              Memiliki pengalaman menerapkan Artificial Neural Network (ANN)
+              untuk melakukan prediksi berdasarkan dataset penelitian serta
+              mengevaluasi hasil model.
             </p>
 
             <div class="skill-tags">
-              <span>ANN</span>
+              <span>Artificial Neural Network</span>
               <span>Data Preparation</span>
               <span>Model Evaluation</span>
             </div>
           </div>
 
-          <!-- SKILL 03 -->
           <div class="skill-card">
             <div class="skill-number">03</div>
-
-            <div class="skill-icon">📊</div>
 
             <h3>Data Analysis</h3>
 
             <p>
-              Memahami proses eksplorasi data, pengolahan dataset, interpretasi
-              hasil, dan penyajian informasi melalui visualisasi data.
+              Memiliki pengalaman mengolah dan menganalisis dataset menggunakan
+              Python, melakukan eksplorasi data, menginterpretasikan hasil
+              analisis, serta menyajikan informasi melalui visualisasi data.
             </p>
 
             <div class="skill-tags">
               <span>Data Analysis</span>
-              <span>Visualization</span>
-              <span>Interpretation</span>
+              <span>Data Visualization</span>
+              <span>Data Interpretation</span>
             </div>
           </div>
 
-          <!-- SKILL 04 -->
           <div class="skill-card">
             <div class="skill-number">04</div>
-
-            <div class="skill-icon">🧠</div>
 
             <h3>Analytical Problem Solving</h3>
 
             <p>
               Terbiasa menggunakan pendekatan sistematis dan analitis untuk
-              memahami permasalahan serta mengembangkan solusi berdasarkan data.
+              memahami permasalahan, mengolah informasi, dan mencari solusi
+              berdasarkan data dalam kegiatan akademik maupun project.
             </p>
 
             <div class="skill-tags">
@@ -260,11 +327,8 @@
             </div>
           </div>
 
-          <!-- SKILL 05 -->
           <div class="skill-card">
             <div class="skill-number">05</div>
-
-            <div class="skill-icon">🗣️</div>
 
             <h3>Communication</h3>
 
@@ -281,18 +345,15 @@
             </div>
           </div>
 
-          <!-- SKILL 06 -->
           <div class="skill-card">
             <div class="skill-number">06</div>
-
-            <div class="skill-icon">🤝</div>
 
             <h3>Collaboration & Adaptability</h3>
 
             <p>
-              Mampu bekerja secara mandiri maupun dalam tim serta terus
-              mengembangkan kemampuan melalui proses belajar dan pengalaman
-              baru.
+              Memiliki pengalaman bekerja secara mandiri maupun dalam tim,
+              berkoordinasi dalam kegiatan bersama, serta beradaptasi dengan
+              lingkungan dan tugas baru.
             </p>
 
             <div class="skill-tags">
@@ -305,18 +366,19 @@
       </div>
     </section>
 
-    <!-- TOOLS -->
+    <!-- =========================================================
+         TOOLS
+         ========================================================= -->
     <section id="tools" class="tools section">
       <div class="section-container">
         <div class="section-header">
-          <p class="section-subtitle">TOOLS & TECHNOLOGIES</p>
-          <h2>Tools I Use</h2>
+          <p class="section-subtitle">TECHNICAL TOOLS</p>
+          <h2>Tools & Technologies</h2>
         </div>
 
         <p class="tools-description">
-          Beberapa tools dan teknologi yang saya gunakan dalam proses belajar,
-          pengembangan project, pemrograman, pengolahan data, dan visualisasi
-          data.
+          Tools yang saya gunakan untuk pemrograman, pengolahan, analisis, dan
+          visualisasi data, serta pengembangan project.
         </p>
 
         <div class="tools-grid">
@@ -324,13 +386,33 @@
           <div class="tool-card">
             <div class="tool-number">01</div>
 
-            <div class="tool-icon">🐍</div>
+            <div class="tool-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="30"
+                height="30"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M12 2H8a3 3 0 0 0-3 3v4h9a3 3 0 0 1 3 3V7a5 5 0 0 0-5-5Z"
+                />
+                <path
+                  d="M12 22h4a3 3 0 0 0 3-3v-4H10a3 3 0 0 1-3-3v5a5 5 0 0 0 5 5Z"
+                />
+                <circle cx="9" cy="5" r=".7" fill="currentColor" />
+                <circle cx="15" cy="19" r=".7" fill="currentColor" />
+              </svg>
+            </div>
 
             <h3>Python</h3>
 
             <p>
-              Digunakan untuk pemrograman, pengolahan data, analisis data,
-              visualisasi, dan pengembangan model Artificial Neural Network.
+              Digunakan untuk pemrograman, pengolahan dan analisis data,
+              visualisasi data, serta penerapan model Artificial Neural Network.
             </p>
           </div>
 
@@ -338,13 +420,27 @@
           <div class="tool-card">
             <div class="tool-number">02</div>
 
-            <div class="tool-icon">📓</div>
+            <div class="tool-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="30"
+                height="30"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <path d="M3 9h18M3 15h18M9 3v18M15 3v18" />
+              </svg>
+            </div>
 
-            <h3>Jupyter Notebook</h3>
+            <h3>Pandas</h3>
 
             <p>
-              Digunakan untuk menjalankan eksperimen Python, eksplorasi data,
-              analisis, dan dokumentasi proses pengembangan project.
+              Digunakan untuk melakukan preprocessing, pengolahan, eksplorasi,
+              dan analisis dataset menggunakan Python.
             </p>
           </div>
 
@@ -352,13 +448,29 @@
           <div class="tool-card">
             <div class="tool-number">03</div>
 
-            <div class="tool-icon">💻</div>
+            <div class="tool-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="30"
+                height="30"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="3" y="3" width="7" height="7" rx="1" />
+                <rect x="14" y="3" width="7" height="7" rx="1" />
+                <rect x="3" y="14" width="7" height="7" rx="1" />
+                <rect x="14" y="14" width="7" height="7" rx="1" />
+              </svg>
+            </div>
 
-            <h3>Visual Studio Code</h3>
+            <h3>NumPy</h3>
 
             <p>
-              Digunakan sebagai code editor dalam pengembangan website dan
-              berbagai proses pemrograman.
+              Digunakan untuk pengolahan data numerik dan mendukung proses
+              komputasi dalam analisis data menggunakan Python.
             </p>
           </div>
 
@@ -366,13 +478,29 @@
           <div class="tool-card">
             <div class="tool-number">04</div>
 
-            <div class="tool-icon">🐙</div>
+            <div class="tool-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="30"
+                height="30"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M3 3v18h18" />
+                <path d="m6 15 4-5 4 3 6-8" />
+                <circle cx="10" cy="10" r="1" />
+                <circle cx="14" cy="13" r="1" />
+              </svg>
+            </div>
 
-            <h3>GitHub</h3>
+            <h3>Matplotlib</h3>
 
             <p>
-              Digunakan untuk menyimpan, mengelola, dan menampilkan project
-              sebagai bagian dari portfolio pengembangan.
+              Digunakan untuk membuat visualisasi data dan menyajikan hasil
+              analisis dalam bentuk grafik.
             </p>
           </div>
 
@@ -380,20 +508,66 @@
           <div class="tool-card">
             <div class="tool-number">05</div>
 
-            <div class="tool-icon">📊</div>
+            <div class="tool-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="30"
+                height="30"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="4" y="2" width="16" height="20" rx="2" />
+                <path d="M8 7h8M8 11h8M8 15h5M8 19h8" />
+              </svg>
+            </div>
 
-            <h3>Tableau</h3>
+            <h3>Jupyter Notebook</h3>
 
             <p>
-              Memiliki pemahaman dasar mengenai penggunaan Tableau Desktop untuk
-              eksplorasi dan visualisasi data.
+              Digunakan untuk menjalankan kode Python, eksplorasi dan analisis
+              data, serta mendokumentasikan proses pengembangan project.
+            </p>
+          </div>
+
+          <!-- TOOL 06 -->
+          <div class="tool-card">
+            <div class="tool-number">06</div>
+
+            <div class="tool-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="30"
+                height="30"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="6" cy="6" r="3" />
+                <circle cx="18" cy="6" r="3" />
+                <circle cx="12" cy="18" r="3" />
+                <path d="M9 6h6M6 9v3a6 6 0 0 0 6 6M18 9v3a6 6 0 0 1-6 6" />
+              </svg>
+            </div>
+
+            <h3>GitHub</h3>
+
+            <p>
+              Digunakan untuk menyimpan dan menampilkan project serta membangun
+              dokumentasi dan portfolio pengembangan.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- PROJECTS -->
+    <!-- =========================================================
+         PROJECTS
+         ========================================================= -->
     <section id="projects" class="projects section">
       <div class="section-container">
         <div class="section-header">
@@ -402,52 +576,81 @@
         </div>
 
         <p class="projects-description">
-          Beberapa project yang saya kembangkan sebagai bagian dari proses
-          pembelajaran dan penerapan kemampuan dalam pemrograman, pengolahan
-          data, analisis data, dan machine learning.
+          Project yang saya kembangkan sebagai bagian dari proses pembelajaran
+          dan penerapan kemampuan dalam pemrograman, pengolahan data, analisis
+          data, dan machine learning.
         </p>
 
         <div class="projects-grid">
-          <!-- FEATURED PROJECT -->
           <div class="project-card featured-project">
-            <div class="featured-label">⭐ FEATURED PROJECT</div>
+            <div class="featured-label">FEATURED PROJECT</div>
 
             <div class="project-number">01</div>
 
-            <h3>Prediksi dan Optimasi Zona Hambat Kitosan menggunakan ANN</h3>
+            <h3>
+              Prediksi dan Optimasi Zona Hambat Kitosan menggunakan Artificial
+              Neural Network
+            </h3>
 
             <p>
-              Project berbasis Artificial Neural Network untuk melakukan
-              prediksi zona hambat kitosan terhadap <i>S. aureus</i> berdasarkan
-              data penelitian. Model digunakan untuk mempelajari pola hubungan
-              antar variabel dan membantu mengidentifikasi kombinasi input
-              terbaik dalam batas data yang tersedia.
+              Proyek penelitian yang menerapkan Artificial Neural Network (ANN)
+              untuk mempelajari hubungan antara jumlah koloni
+              <i>Staphylococcus aureus</i>, konsentrasi kitosan, dan zona hambat
+              berdasarkan dataset penelitian.
+            </p>
+
+            <p>
+              Proses project mencakup data preparation, transformasi data,
+              pembagian dataset, pemodelan ANN, evaluasi menggunakan MSE dan R²,
+              serta eksplorasi kombinasi input dalam ruang data yang diamati.
             </p>
 
             <div class="project-tags">
               <span>Python</span>
+              <span>Pandas</span>
+              <span>NumPy</span>
+              <span>Matplotlib</span>
+              <span>Scikit-learn</span>
               <span>Machine Learning</span>
               <span>ANN</span>
-              <span>Data Analysis</span>
             </div>
 
-            <a href="project_ann.html" class="project-link"> View Project → </a>
+            <a href="project_ann.html" class="project-link">View Project →</a>
           </div>
         </div>
 
         <div class="projects-note">
-          <span>🚀</span>
+          <span>
+            <svg
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M12 3v3M12 18v3M3 12h3M18 12h3" />
+              <path
+                d="m5.6 5.6 2.1 2.1m8.6 8.6 2.1 2.1m0-12.8-2.1 2.1m-8.6 8.6-2.1 2.1"
+              />
+              <circle cx="12" cy="12" r="5" />
+              <path d="m10 12 1.5 1.5L14.5 10" />
+            </svg>
+          </span>
 
           <p>
-            Portfolio project ini akan terus dikembangkan seiring dengan proses
-            pembelajaran dan pengembangan kemampuan saya di bidang teknologi,
-            pemrograman, dan data.
+            Project lainnya akan ditambahkan seiring dengan pengembangan
+            portfolio dan pengalaman saya di bidang teknologi dan data.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- EXPERIENCE -->
+    <!-- =========================================================
+         EXPERIENCE & LEADERSHIP
+         ========================================================= -->
     <section id="experience" class="experience section">
       <div class="section-container">
         <div class="section-header">
@@ -456,53 +659,6 @@
         </div>
 
         <div class="timeline">
-          <!-- KKN LEADERSHIP -->
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-
-            <div class="timeline-content">
-              <div class="timeline-date">2025</div>
-
-              <h3>Ketua KKN PMD</h3>
-              <h4>Universitas Mataram — Desa Rarang</h4>
-
-              <p>
-                Memimpin pelaksanaan kegiatan Kuliah Kerja Nyata (KKN) PMD
-                dengan bertanggung jawab dalam mengoordinasikan anggota tim,
-                merencanakan program kerja, serta memastikan kegiatan dapat
-                dilaksanakan sesuai dengan tujuan yang telah ditetapkan.
-              </p>
-
-              <ul>
-                <li>
-                  Memimpin dan mengoordinasikan anggota kelompok selama
-                  pelaksanaan program KKN.
-                </li>
-                <li>
-                  Menyusun, merencanakan, dan mengatur pelaksanaan program kerja
-                  bersama anggota tim dan masyarakat setempat.
-                </li>
-                <li>
-                  Mengembangkan program pemberdayaan masyarakat melalui
-                  penerapan Sistem Informasi Desa (SID).
-                </li>
-                <li>
-                  Berkontribusi dalam pengembangan program Rarang Marigold Tea
-                  sebagai salah satu kegiatan pemberdayaan masyarakat.
-                </li>
-                <li>
-                  Menjalin komunikasi dan koordinasi dengan masyarakat serta
-                  pihak terkait untuk mendukung pelaksanaan program.
-                </li>
-                <li>
-                  Memastikan koordinasi dan pelaksanaan program kerja berjalan
-                  secara terstruktur selama kegiatan KKN berlangsung.
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- HONDA EXPERIENCE -->
           <div class="timeline-item">
             <div class="timeline-dot"></div>
 
@@ -525,26 +681,72 @@
                   Melakukan komunikasi dan promosi produk Honda kepada pelanggan
                   melalui kegiatan telemarketing.
                 </li>
+
                 <li>
                   Melakukan follow-up terhadap pelanggan dan calon pelanggan
                   untuk menindaklanjuti kebutuhan serta ketertarikan terhadap
                   produk.
                 </li>
+
                 <li>
-                  Memberikan informasi mengenai spesifikasi, fitur, dan pilihan
-                  unit kendaraan sesuai kebutuhan pelanggan.
+                  Menjelaskan spesifikasi, fitur, dan pilihan unit kendaraan
+                  sesuai dengan kebutuhan pelanggan.
                 </li>
+
                 <li>
                   Mengingatkan pelanggan mengenai jadwal servis berkala sebagai
                   bagian dari pelayanan dan menjaga hubungan dengan pelanggan.
                 </li>
+
                 <li>
-                  Melaksanakan kegiatan promosi produk di lingkungan dealer
-                  maupun melalui kegiatan promosi di lapangan.
+                  Melaksanakan kegiatan promosi di lingkungan dealer maupun
+                  lapangan serta mendukung proses penjualan dan pencapaian
+                  target.
                 </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+              <div class="timeline-date">2025</div>
+
+              <h3>Ketua Kelompok KKN PMD</h3>
+              <h4>Universitas Mataram — Desa Rarang</h4>
+
+              <p>
+                Memimpin pelaksanaan kegiatan Kuliah Kerja Nyata (KKN) PMD
+                dengan bertanggung jawab dalam mengoordinasikan anggota tim,
+                merencanakan program kerja, serta memastikan kegiatan dapat
+                dilaksanakan sesuai dengan tujuan yang telah ditetapkan.
+              </p>
+
+              <ul>
                 <li>
-                  Mendukung proses penjualan kendaraan dan pencapaian target
-                  yang telah ditetapkan.
+                  Memimpin dan mengoordinasikan anggota kelompok selama
+                  pelaksanaan program KKN.
+                </li>
+
+                <li>
+                  Menyusun dan merencanakan program kerja bersama anggota tim
+                  serta berkoordinasi dengan masyarakat setempat.
+                </li>
+
+                <li>
+                  Mengembangkan program pemberdayaan masyarakat melalui
+                  penerapan Sistem Informasi Desa (SID).
+                </li>
+
+                <li>
+                  Berkontribusi dalam pengembangan program Rarang Marigold Tea
+                  sebagai salah satu kegiatan pemberdayaan masyarakat.
+                </li>
+
+                <li>
+                  Menjalin komunikasi dan koordinasi dengan masyarakat serta
+                  pihak terkait untuk mendukung pelaksanaan program.
                 </li>
               </ul>
             </div>
@@ -553,7 +755,9 @@
       </div>
     </section>
 
-    <!-- EDUCATION -->
+    <!-- =========================================================
+         EDUCATION
+         ========================================================= -->
     <section id="education" class="education section">
       <div class="section-container">
         <div class="section-header">
@@ -563,22 +767,36 @@
 
         <div class="education-grid">
           <div class="education-card featured">
-            <div class="education-icon">🎓</div>
+            <div class="education-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="30"
+                height="30"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m2 10 10-5 10 5-10 5-10-5Z" />
+                <path d="M6 12v5c3.5 3 8.5 3 12 0v-5" />
+                <path d="M22 10v6" />
+              </svg>
+            </div>
 
             <div class="education-content">
               <span class="education-year">Universitas Mataram</span>
 
-              <h3>Sarjana Fisika</h3>
+              <h3>Sarjana Fisika - 2026</h3>
 
               <p>
-                Lulusan Program Studi Fisika Universitas Mataram dengan
-                ketertarikan pada pemrograman, pengolahan dan analisis data,
-                serta penerapan teknologi dan machine learning.
+                Lulusan Program Studi Fisika Universitas Mataram dengan latar
+                belakang akademik yang membentuk kemampuan berpikir analitis,
+                pemecahan masalah, dan pengolahan data.
               </p>
 
               <div class="education-detail">
-                <span>🎯 IPK 3.40</span>
-                <span>📍 Lombok Barat, Indonesia</span>
+                <span>IPK 3.40</span>
               </div>
             </div>
           </div>
@@ -586,7 +804,9 @@
       </div>
     </section>
 
-    <!-- ACHIEVEMENT -->
+    <!-- =========================================================
+         ACHIEVEMENT
+         ========================================================= -->
     <section id="achievement" class="achievement section">
       <div class="section-container">
         <div class="section-header">
@@ -595,35 +815,38 @@
         </div>
 
         <div class="achievement-grid">
-          <div class="achievement-card certificate-card">
+          <div class="achievement-card">
             <div class="achievement-number">01</div>
 
-            <div class="certificate-preview">
+            <div class="achievement-image">
               <img
                 src="Sertifikat/ICST_Hendrawan.jpg"
                 alt="International Conference on Science and Technology 2025 Certificate"
-                class="certificate-image"
               />
             </div>
 
-            <h3>International Conference on Science and Technology</h3>
+            <div class="achievement-content">
+              <span class="achievement-year">2025</span>
 
-            <p>
-              Berpartisipasi sebagai presenter dalam International Conference on
-              Science and Technology (ICST) 2025 dengan mempresentasikan karya
-              akademik dalam forum ilmiah internasional. Pengalaman ini
-              memperkuat kemampuan dalam komunikasi ilmiah, penyampaian hasil
-              penelitian, dan presentasi di hadapan peserta dari berbagai latar
-              belakang akademik.
-            </p>
+              <h3>International Conference on Science and Technology</h3>
 
-            <span class="achievement-year">2025</span>
+              <p>
+                Berpartisipasi sebagai presenter dalam International Conference
+                on Science and Technology (ICST) 2025 dengan mempresentasikan
+                karya akademik dalam forum ilmiah internasional. Pengalaman ini
+                memperkuat kemampuan dalam komunikasi ilmiah, penyampaian hasil
+                penelitian, dan presentasi di hadapan peserta dari berbagai
+                latar belakang akademik.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CERTIFICATIONS -->
+    <!-- =========================================================
+         CERTIFICATIONS
+         ========================================================= -->
     <section id="certifications" class="certifications section">
       <div class="section-container">
         <div class="section-header">
@@ -632,126 +855,144 @@
         </div>
 
         <p class="certifications-description">
-          Sertifikat dan kredensial yang diperoleh melalui proses pembelajaran
-          dan pengembangan kompetensi di bidang data, teknologi, dan artificial
+          Sertifikat dan kredensial yang diperoleh melalui pembelajaran dan
+          pengembangan pengetahuan di bidang data, teknologi, dan artificial
           intelligence.
         </p>
 
-        <div class="certifications-grid">
-          <!-- IBM VIA CREDLY CREDENTIAL 01 -->
-          <div class="certification-card credential-card">
-            <div class="certification-number">01</div>
+        <div class="ibm-collection">
+          <div class="ibm-collection-header">
+            <div class="ibm-collection-title">
+              <span class="ibm-provider">IBM</span>
 
-            <div class="badge-preview">
-              <img
-                src="Sertifikat/IBMDesign20260911-20-mx1n26_page-0001.jpg"
-                alt="Getting Started with Data - IBM via Credly"
-                class="badge-image"
-              />
-            </div>
-
-            <div class="certification-content">
-              <span class="certification-provider">IBM via Credly</span>
-
-              <h3>Getting Started with Data</h3>
+              <h3>IBM Learning Collection</h3>
 
               <p>
-                Digital credential yang menunjukkan penyelesaian pembelajaran
-                mengenai konsep dasar data serta pemahaman fundamental dalam
-                bidang data melalui program pembelajaran IBM.
+                Kumpulan sertifikat dan digital credential yang diperoleh
+                melalui berbagai program pembelajaran IBM di bidang data,
+                visualisasi, artificial intelligence, dan teknologi.
               </p>
+            </div>
 
-              <span class="certification-type">Digital Credential</span>
+            <div class="ibm-collection-count">
+              <strong>04</strong>
+              <span>Credentials</span>
             </div>
           </div>
 
-          <!-- IBM CERTIFICATE 02 -->
-          <div class="certification-card certificate-card">
-            <div class="certification-number">02</div>
+          <div class="ibm-credentials">
+            <!-- CREDENTIAL 01 -->
+            <div class="ibm-credential-card">
+              <div class="credential-number">01</div>
 
-            <div class="certificate-preview">
-              <img
-                src="Sertifikat/Introduction to Tableau Desktop_page-0001.jpg"
-                alt="Introduction to Tableau Desktop Certificate"
-                class="certificate-image"
-              />
+              <div class="credential-preview">
+                <img
+                  src="Sertifikat/IBMDesign20260911-20-mx1n26_page-0001.jpg"
+                  alt="Getting Started with Data - IBM via Credly"
+                />
+              </div>
+
+              <div class="credential-content">
+                <span class="credential-provider">IBM via Credly</span>
+
+                <h4>Getting Started with Data</h4>
+
+                <p>
+                  Digital credential yang menunjukkan penyelesaian pembelajaran
+                  mengenai konsep dasar data serta pemahaman fundamental dalam
+                  bidang data melalui program pembelajaran IBM.
+                </p>
+
+                <span class="credential-type">Digital Credential</span>
+              </div>
             </div>
 
-            <div class="certification-content">
-              <span class="certification-provider">IBM</span>
+            <!-- CREDENTIAL 02 -->
+            <div class="ibm-credential-card">
+              <div class="credential-number">02</div>
 
-              <h3>Introduction to Tableau Desktop</h3>
+              <div class="credential-preview">
+                <img
+                  src="Sertifikat/Introduction to Tableau Desktop_page-0001.jpg"
+                  alt="Introduction to Tableau Desktop Certificate"
+                />
+              </div>
 
-              <p>
-                Mempelajari dasar penggunaan Tableau Desktop untuk eksplorasi,
-                analisis, dan visualisasi data.
-              </p>
+              <div class="credential-content">
+                <span class="credential-provider">IBM</span>
 
-              <span class="certification-type">Data Visualization</span>
-            </div>
-          </div>
+                <h4>Introduction to Tableau Desktop</h4>
 
-          <!-- IBM CERTIFICATE 03 -->
-          <div class="certification-card certificate-card">
-            <div class="certification-number">03</div>
+                <p>
+                  Mempelajari dasar penggunaan Tableau Desktop untuk eksplorasi,
+                  analisis, dan visualisasi data.
+                </p>
 
-            <div class="certificate-preview">
-              <img
-                src="Sertifikat/Classifying Data Using IBM Granite_page-0001.jpg"
-                alt="Classifying Data Using IBM Granite Certificate"
-                class="certificate-image"
-              />
-            </div>
-
-            <div class="certification-content">
-              <span class="certification-provider">IBM</span>
-
-              <h3>Classifying Data Using IBM Granite</h3>
-
-              <p>
-                Mempelajari penggunaan IBM Granite serta penerapan artificial
-                intelligence dalam proses klasifikasi data.
-              </p>
-
-              <span class="certification-type">Artificial Intelligence</span>
-            </div>
-          </div>
-
-          <!-- IBM CERTIFICATE 04 -->
-          <div class="certification-card certificate-card">
-            <div class="certification-number">04</div>
-
-            <div class="certificate-preview">
-              <img
-                src="Sertifikat/Unleashing the Power of AI Agents_page-0001.jpg"
-                alt="Unleashing the Power of AI Agents Certificate"
-                class="certificate-image"
-              />
+                <span class="credential-type">Data Visualization</span>
+              </div>
             </div>
 
-            <div class="certification-content">
-              <span class="certification-provider">IBM</span>
+            <!-- CREDENTIAL 03 -->
+            <div class="ibm-credential-card">
+              <div class="credential-number">03</div>
 
-              <h3>Unleashing the Power of AI Agents</h3>
+              <div class="credential-preview">
+                <img
+                  src="Sertifikat/Classifying Data Using IBM Granite_page-0001.jpg"
+                  alt="Classifying Data Using IBM Granite Certificate"
+                />
+              </div>
 
-              <p>
-                Mempelajari konsep, potensi, dan penerapan AI Agents dalam
-                mendukung otomatisasi serta penyelesaian berbagai tugas.
-              </p>
+              <div class="credential-content">
+                <span class="credential-provider">IBM</span>
 
-              <span class="certification-type">AI & Automation</span>
+                <h4>Classifying Data Using IBM Granite</h4>
+
+                <p>
+                  Mempelajari penggunaan IBM Granite serta penerapan artificial
+                  intelligence dalam proses klasifikasi data.
+                </p>
+
+                <span class="credential-type">Artificial Intelligence</span>
+              </div>
+            </div>
+
+            <!-- CREDENTIAL 04 -->
+            <div class="ibm-credential-card">
+              <div class="credential-number">04</div>
+
+              <div class="credential-preview">
+                <img
+                  src="Sertifikat/Unleashing the Power of AI Agents_page-0001.jpg"
+                  alt="Unleashing the Power of AI Agents Certificate"
+                />
+              </div>
+
+              <div class="credential-content">
+                <span class="credential-provider">IBM</span>
+
+                <h4>Unleashing the Power of AI Agents</h4>
+
+                <p>
+                  Mempelajari konsep, potensi, dan penerapan AI Agents dalam
+                  mendukung otomatisasi serta penyelesaian berbagai tugas.
+                </p>
+
+                <span class="credential-type">AI & Automation</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CONTACT -->
+    <!-- =========================================================
+         CONTACT
+         ========================================================= -->
     <section id="contact" class="contact section">
       <div class="section-container">
         <div class="section-header">
           <p class="section-subtitle">GET IN TOUCH</p>
-
           <h2>Let's Work Together</h2>
 
           <p class="contact-description">
@@ -763,7 +1004,21 @@
         <div class="contact-container">
           <!-- EMAIL -->
           <a href="mailto:wanhend811@gmail.com" class="contact-card">
-            <div class="contact-icon">✉️</div>
+            <div class="contact-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="m3 7 9 6 9-6" />
+              </svg>
+            </div>
 
             <div>
               <h3>Email</h3>
@@ -773,12 +1028,26 @@
 
           <!-- LINKEDIN -->
           <a
-            href="MASUKKAN_LINK_LINKEDIN_KAMU"
+            href="https://www.linkedin.com/in/hen-dra-055b601b3"
             class="contact-card"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div class="contact-icon">💼</div>
+            <div class="contact-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <path d="M8 10v7M8 7v.01M12 17v-7m0 3a3 3 0 0 1 6 0v4" />
+              </svg>
+            </div>
 
             <div>
               <h3>LinkedIn</h3>
@@ -788,12 +1057,27 @@
 
           <!-- GITHUB -->
           <a
-            href="www.linkedin.com/in/hen-dra-055b601b3"
+            href="https://github.com/Ndraaa11"
             class="contact-card"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div class="contact-icon">💻</div>
+            <div class="contact-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.7c3-.3 6.1-1.5 6.1-6.7a5.2 5.2 0 0 0-1.4-3.6 4.8 4.8 0 0 0-.1-3.6S17.5 1 15 3.2a13.4 13.4 0 0 0-7 0C5.5 1 4.3 1.5 4.3 1.5a4.8 4.8 0 0 0-.1 3.6A5.2 5.2 0 0 0 2.8 8.7c0 5.2 3.1 6.4 6.1 6.7A3.4 3.4 0 0 0 8 18.1V22"
+                />
+              </svg>
+            </div>
 
             <div>
               <h3>GitHub</h3>
@@ -804,7 +1088,9 @@
       </div>
     </section>
 
-    <!-- FOOTER -->
+    <!-- =========================================================
+         FOOTER
+         ========================================================= -->
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-logo">H.</div>
@@ -815,6 +1101,9 @@
       </div>
     </footer>
 
+    <!-- =========================================================
+         JAVASCRIPT
+         ========================================================= -->
     <script src="script.js"></script>
   </body>
 </html>
